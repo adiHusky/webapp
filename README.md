@@ -65,7 +65,7 @@ Run the project
 
 * For cli follow the synopsis
 ``
-  import-certificate  <br />
+  import-certificate <br/>
  [--certificate-arn <value>]  
  --certificate <value>  
  --private-key <value>  
