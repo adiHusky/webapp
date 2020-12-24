@@ -44,27 +44,27 @@ User structure should match with database table
 Run the project
 
 # Steps for running the project
-1- go to webapp project folder location on the command line
-2- before running the project from commandline, we need to configure the database and project
-3- Under application.properties check the configuration of database 
-4- in webapp folder command line install maven
-5- the command for it is sudo apt install maven
-6- sudo apt update 
-7- mvn spring-boot:run for running the project
-8- APIs can be verified from     Postman 
+1. go to webapp project folder location on the command line
+2. before running the project from commandline, we need to configure the database and project
+3. Under application.properties check the configuration of database 
+4. in webapp folder command line install maven
+5. the command for it is sudo apt install maven
+6. sudo apt update 
+7. mvn spring-boot:run for running the project
+8. APIs can be verified from     Postman 
 
 
 # steps for importing certificate
-Certificate can be uploaded using cli or console
-1- For console 
-1-Go to Certificate Manager
-2-Import a certificate
-3-Enter the certificate body, private key and certificate chain
-4-Certificate chain is the one which can be found in bundle
-5-Click next and submit, you must see that the status of the certificate is issued
+* Certificate can be uploaded using cli or console
+1. For console 
+2. Go to Certificate Manager
+3. Import a certificate
+3. Enter the certificate body, private key and certificate chain
+4. Certificate chain is the one which can be found in bundle
+5. Click next and submit, you must see that the status of the certificate is issued
 
-2- For cli follow the synopsis
-
+* For cli follow the synopsis
+``
   import-certificate
 [--certificate-arn <value>]
 --certificate <value>
@@ -73,6 +73,7 @@ Certificate can be uploaded using cli or console
 [--tags <value>]
 [--cli-input-json | --cli-input-yaml]
 [--generate-cli-skeleton <value>]
+``
  
 
 
