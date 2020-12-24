@@ -1,4 +1,4 @@
-# webapp
+# Platform to ask questions and answers
 This is a Spring-boot web application with web services with basic authentication.The web application is kind of similar to Quora where users can post questions by creating categories and users can also answer any of these questions. All the necessary APIs provide basic authentication which is done with the help of Spring Authentication. The application provides following apis
 
 **1- Create User**
@@ -15,6 +15,30 @@ This is a Spring-boot web application with web services with basic authenticatio
 
 **5- Create Question**
 - Once the user registers he can create a question by passing relevent details required for question. Once the request is sent, user will get the question ID.
+
+**6- Retrieve Question details**
+- By passing the question ID in the URL link, the details of the question ID can be retrieved
+
+**7- Delete Question ( Can only be done by question owner / creator ) **
+**8- Update Question ( Can only be done by question owner / creator ) **
+**9- Retrieve all Questions**
+- Questions posted by all users can be retrieved along with all the information
+
+**10- Upload File for a specific Question**
+- A file  gets uploaded in Amazon's S3 bucket against that relevant question. While retrieving the question the link of file ( Amazon's S3 bucket can be found ) 
+
+**11- Delete File for a specific Question**
+
+**12- Create Answer for a specific Question**
+- Answer can be created for a specific question by using the question ID
+
+**13- Update Answer ( Can only be done by answer owner ) **
+
+**14- Delete Answer**
+
+**15- Upload File for a specific answer **
+
+**16- Delete File for a specific answer **
 
 
 
