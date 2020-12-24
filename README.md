@@ -64,16 +64,16 @@ Run the project
 5. Click next and submit, you must see that the status of the certificate is issued
 
 * For cli follow the synopsis
-``
-  import-certificate <br/>
- [--certificate-arn <value>]  
- --certificate <value>  
- --private-key <value>  
- [--certificate-chain <value>]  
- [--tags <value>]  
- [--cli-input-json | --cli-input-yaml]  
- [--generate-cli-skeleton <value>]  
-``
+```
+import-certificate <br/>
+[--certificate-arn <value>]  
+--certificate <value>  
+--private-key <value>  
+[--certificate-chain <value>]  
+[--tags <value>]  
+[--cli-input-json | --cli-input-yaml]  
+[--generate-cli-skeleton <value>]  
+```
  
 
 
