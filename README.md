@@ -19,8 +19,8 @@ This is a Spring-boot web application with web services with basic authenticatio
 **6- Retrieve Question details**
 - By passing the question ID in the URL link, the details of the question ID can be retrieved
 
-**7- Delete Question ( Can only be done by question owner / creator ) **
-**8- Update Question ( Can only be done by question owner / creator ) **
+**7- Delete Question ( Can only be done by question owner / creator )**
+**8- Update Question ( Can only be done by question owner / creator )**
 **9- Retrieve all Questions**
 - Questions posted by all users can be retrieved along with all the information
 
@@ -32,13 +32,13 @@ This is a Spring-boot web application with web services with basic authenticatio
 **12- Create Answer for a specific Question**
 - Answer can be created for a specific question by using the question ID
 
-**13- Update Answer ( Can only be done by answer owner ) **
+**13- Update Answer ( Can only be done by answer owner )**
 
 **14- Delete Answer**
 
-**15- Upload File for a specific answer **
+**15- Upload File for a specific answer**
 
-**16- Delete File for a specific answer **
+**16- Delete File for a specific answer**
 
 
 
