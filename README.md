@@ -65,14 +65,14 @@ Run the project
 
 * For cli follow the synopsis
 ``
-  import-certificate
-[--certificate-arn <value>]
---certificate <value>
---private-key <value>
-[--certificate-chain <value>]
-[--tags <value>]
-[--cli-input-json | --cli-input-yaml]
-[--generate-cli-skeleton <value>]
+*  import-certificate
+* [--certificate-arn <value>]
+* --certificate <value>
+* --private-key <value>
+* [--certificate-chain <value>]
+* [--tags <value>]
+* [--cli-input-json | --cli-input-yaml]
+* [--generate-cli-skeleton <value>]
 ``
  
 
